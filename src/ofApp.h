@@ -14,8 +14,9 @@
 using namespace std;
 
 
-#define HOST "localhost"
-#define PORT 12345
+//#define HOST "localhost"
+#define HOST "192.168.7.20"
+#define PORT 9001
 
 
 class ofApp : public ofBaseApp{

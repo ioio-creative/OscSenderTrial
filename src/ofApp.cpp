@@ -78,8 +78,8 @@ void ofApp::keyPressed(int key){
 	else if (key == 'c' || key == 'C')
 	{
 		ofxOscMessage m;
-		m.setAddress("/test");
-		m.addStringArg("hello");		
+		m.setAddress("/response/end");
+		m.addStringArg("1");		
 		sender.sendMessage(m);
 		cout << "send" << endl;
 	}
